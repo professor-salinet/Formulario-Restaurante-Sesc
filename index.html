@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="./enviar_formulario.php">
+        <label for="txt_sugestoes_melhorias">
+            Digite abaixo as sugestões de melhorias:
+        </label>
+        <textarea type="text" id="txt_sugestoes_melhorias" name="txt_sugestoes_melhorias" placeholder="Digite aqui as sugestões de melhorias" rows="10" cols="33"></textarea>
+        <br/>
+        <label for="txt_email">
+            Digite abaixo seu email:
+        </label>
+        <input type="text" id="txt_email" name="txt_email" placeholder="Digite aqui seu email"/>
+        <br/>
+        <label for="txt_depoimento">
+            Digite abaixo seu depoimento:
+        </label>
+        <textarea type="text" id="txt_depoimento" name="txt_depoimento" placeholder="Digite aqui seu depoimento" rows="10" cols="33"></textarea>
+        <br/>
+        <label>Clique nas opções para dar estrelas ao serviço do restaurante:</label>
+        <input type="radio" id="1_estrla" name="rdg_estrelas" value="1" />
+        <label for="rdg_estrelas">
+            ★
+        </label>
+        <input type="radio" id="2_estrla" name="rdg_estrelas" value="2" />
+        <label for="rdg_estrelas">
+            ★★
+        </label>
+        <input type="radio" id="3_estrla" name="rdg_estrelas" value="3" />
+        <label for="rdg_estrelas">
+            ★★★
+        </label>
+        <input type="radio" id="4_estrla" name="rdg_estrelas" value="4" />
+        <label for="rdg_estrelas">
+            ★★★★
+        </label>
+        <input type="radio" id="5_estrla" name="rdg_estrelas" value="5" />
+        <label for="rdg_estrelas">
+            ★★★★★
+        </label>
+    </form>
+</body>
+</html>
